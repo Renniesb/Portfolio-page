@@ -12,6 +12,9 @@ word-wrap: break-word;
 	box-sizing: border-box;
 }
 
+.link{
+	color: #747704
+}
 
 .featured-image{
 	margin-top: 15px;
@@ -41,6 +44,8 @@ word-wrap: break-word;
 	border-radius: 8px;
 
 }
+
+
 
 hr {
 	height: 4px;
