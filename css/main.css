@@ -21,6 +21,7 @@ word-wrap: break-word;
 	margin-top: 15px;
 	height: 300px;
 	width: 350px;
+	max-height:100%;
 	
 }
 
