@@ -19,10 +19,14 @@ word-wrap: break-word;
 
 .featured-image{
 	margin-top: 15px;
-	height: 300px;
-	width: 350px;
-	max-height:100%;
-	
+}
+
+.subtitle1 {
+	font-stretch: expanded;	
+	font-weight: bold;
+	margin-top: 35px;
+	margin-bottom: 5px;	
+
 }
 
 .title-logo {
@@ -55,3 +59,4 @@ hr {
 	margin-top: 6px;
 	margin-bottom: 40px;
 }
+
