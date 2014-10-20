@@ -6,26 +6,19 @@ body{
 font-family: 'Lato', sans-serif;
 word-wrap: break-word;
 }
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-}
+
 
 .link{
 	color: #747704
 }
 
-.featured-image{
-	margin-top: 15px;
-}
+
 
 .subtitle1 {
-	font-stretch: expanded;	
+	
 	font-weight: bold;
 	margin-top: 35px;
-	margin-bottom: 5px;	
+	margin-bottom: 20px;	
 
 }
 
