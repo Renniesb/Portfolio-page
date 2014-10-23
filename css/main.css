@@ -1,24 +1,25 @@
 /* {
 	border: 1px solid red !important;
 }*/
+
 body{
 font-family: 'Lato', sans-serif;
 word-wrap: break-word;
-
-}
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
 }
 
 
-.featured-image{
-	margin-top: 15px;
-	height: 300px;
-	width: 350px;
+.link{
+	color: #747704
+}
+
+
+
+.subtitle1 {
 	
+	font-weight: bold;
+	margin-top: 35px;
+	margin-bottom: 20px;	
+
 }
 
 .title-logo {
@@ -43,9 +44,12 @@ word-wrap: break-word;
 
 }
 
+
+
 hr {
 	height: 4px;
 	background-color: #BCBBBB;
 	margin-top: 6px;
 	margin-bottom: 40px;
 }
+
