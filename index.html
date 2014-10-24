@@ -10,13 +10,15 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Cinzel:900' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/main.css">
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container">
 		<div class="row">
 
 			<div class="col-md-6">
-				<img class="title-logo" src="img/mouse_logo.jpg" alt="my logo image">
+				<img class="title-logo" src="img/mouse_logo.jpg"  alt="my logo image">
 			</div>
 
 			<div class="col-md-6 text-right text-uppercase">
@@ -49,19 +51,19 @@
 
 		<div class="row text-center">
 			<div class="col-md-4">
-				<img class="img-responsive featured-image rounded-corners" src="img/flashcards.jpg" alt="flashcard image">
+				<img class="img-responsive featured-image rounded-corners"  src="img/flashcards.jpg" alt="flashcard image" data-toggle="modal" data-target="#project1"  onmouseover="this.src='img/flashcards-text.jpg'" onmouseout="this.src='img/flashcards.jpg'">
 				<h2>Flashcard App</h2>
 				<p><a class="link" href="http://renniesb.github.io/languagesite/Flashcards.html">http://renniesb.github.io/languagesite/Flashcards.html</a></p>
 			</div>
 
 			<div class="col-md-4">
-				<img class="img-responsive featured-image rounded-corners" src="img/drag-and-drop.jpg" alt="drag and drop image">
+				<img class="img-responsive featured-image rounded-corners" src="img/drag-and-drop.jpg" alt="drag and drop image" data-toggle="modal" data-target="#project2"  onmouseover="this.src='img/drag-and-drop-text.jpg'" onmouseout="this.src='img/drag-and-drop.jpg'" >
 				<h2>Drag and Drop App</h2>
 				<p><a class="link" href="http://renniesb.github.io/languagesite/materialsDragAndDrop/draganddrop.html">http://renniesb.github.io/languagesite/materialsDragAndDrop/draganddrop.html</a></p>
 			</div>
 
 			<div class="col-md-4">
-				<img class="img-responsive featured-image" src="img/science.jpg" alt="science blog image">
+				<img class="img-responsive featured-image" src="img/science.jpg"  alt="science blog image" data-toggle="modal" data-target="#project3" onmouseover="this.src='img/science-text.jpg'" onmouseout="this.src='img/science.jpg'">
 				<h2>Science Blog</h2>
 				<p><a class="link" href="http://sciencesanjosesg.blogspot.com.es/">http://sciencesanjosesg.blogspot.com.es/</a></p>
 			</div>
@@ -69,6 +71,69 @@
 		</div>
 
 	</div>
+
+
+
+	<!-- Modal 1-->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Flashcard App</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="img/flashcards.jpg">
+        <br>
+        This is an app designed to learn basic spanish words, first you see the word in English and when you click the forward arrow you can see the equivalent word in spanish.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	
+</body>
+
+<!-- Modal 2-->
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Drag and Drop App</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="img/drag-and-drop.jpg">
+        <br>
+        This app is designed to test the difference between manufactured goods and raw materials through a drag and drop game.The user must place the different objects in their correct category.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3-->
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Science Blog</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="img/science.jpg">
+        <br>
+        This is a blog that uses videos, games and other resources to teach science topics to children.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	
+</body>
 	
 </body>
 </html>
