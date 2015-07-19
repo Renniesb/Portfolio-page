@@ -7,6 +7,10 @@ font-family: 'Lato', sans-serif;
 word-wrap: break-word;
 }
 
+#content{
+margin-top: 60px;
+}
+
 
 .link{
 	color: #747704
