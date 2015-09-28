@@ -1,8 +1,16 @@
 {
   "name": "Portfolio-page",
   "version": "1.0.0",
-  "description": "image processing",
-  "main": "index.js",
+  "description": "image responsive",
+  "main": "gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-responsive-images": "^0.1.6"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-responsive-images": "^0.1.6"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,9 +23,5 @@
   "bugs": {
     "url": "https://github.com/Renniesb/Portfolio-page/issues"
   },
-  "homepage": "https://github.com/Renniesb/Portfolio-page",
-  "keywords": [],
-  "devDependencies": {
-    "grunt-responsive-images": "^0.1.6"
-  }
+  "homepage": "https://github.com/Renniesb/Portfolio-page"
 }

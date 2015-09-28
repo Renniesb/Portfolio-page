@@ -1,17 +1,15 @@
 module.exports = function(grunt){
 	grunt.initConfig({
-		responsive_images: {
-			options: {
-				//Task-specific options go here.
-			},
-			files: [{
-     				expand: true,
-    				src: ['img/**/*.{gif,png,jpg,jpge}'],
-     				cwd: 'src/',
-     				dest: 'dist/'
-   			}]
- }
-		}
-	});
+		  responsive_images: {
+    		dev: {
+      			files: [{
+        		expand: true,
+        		src: ['img/**/*.{jpg,gif,png}'],
+        		cwd: 'src/',
+        		dest: 'dist/'
+      			}]
+    }
+  },
+	})
 	grunt.loadNpmTasks('grunt-responsive-images');
 }
