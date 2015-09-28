@@ -1,0 +1,23 @@
+{
+  "name": "Portfolio-page",
+  "version": "1.0.0",
+  "description": "image processing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Renniesb/Portfolio-page.git"
+  },
+  "author": "Rennie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Renniesb/Portfolio-page/issues"
+  },
+  "homepage": "https://github.com/Renniesb/Portfolio-page",
+  "keywords": [],
+  "devDependencies": {
+    "grunt-responsive-images": "^0.1.6"
+  }
+}
