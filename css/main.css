@@ -7,20 +7,24 @@ font-family: 'Lato', sans-serif;
 word-wrap: break-word;
 }
 
+img {
+    width: 100%;
+}
+
 
 .link{
 	color: #747704
 }
 
 .subtitle{
-	margin-right: 18%;
+	font-size: 5min;
 }
 
 .title2 {
-	
+	font-size: 5vmin;
 	font-weight: bold;
 	margin-top: 35px;
-	margin-bottom: 20px;	
+	margin-bottom: 20px;
 
 }
 
@@ -37,7 +41,7 @@ word-wrap: break-word;
 
 
 .title-super{
-	font-size: 45px;
+	font-size: 5vmin;
 
 }
 
@@ -57,5 +61,6 @@ hr {
 
 .space{
 	margin-top: 0px;
+	font-size: 4vmin;
 }
 
