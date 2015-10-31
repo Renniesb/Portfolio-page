@@ -1,0 +1,62 @@
+/* {
+	border: 1px solid red !important;
+}*/
+
+body{
+font-family: 'Lato', sans-serif;
+word-wrap: break-word;
+}
+
+
+.link{
+	color: #747704
+}
+
+.subtitle{
+	font-size: 5min;
+}
+
+.title2 {
+	font-size: 5vmin;
+	font-weight: bold;
+	margin-top: 35px;
+	margin-bottom: 20px;
+
+}
+
+.title-logo {
+	width: 100px;
+	height:100px;
+	margin-top: 20px;
+}
+
+.title{
+	font-family: 'Cinzel', serif;
+	margin-top: 40px;
+}
+
+
+.title-super{
+	font-size: 5vmin;
+
+}
+
+.rounded-corners{
+	border-radius: 8px;
+
+}
+
+
+
+hr {
+	height: 4px;
+	background-color: #BCBBBB;
+	margin-top: 6px;
+	margin-bottom: 40px;
+}
+
+.space{
+	margin-top: 0px;
+	font-size: 4vmin;
+}
+
