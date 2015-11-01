@@ -24,7 +24,7 @@ word-wrap: break-word;
 }
 
 .subtitle{
-	font-size: 5min;
+	font-size: 4vmin;
 }
 
 .title2 {
@@ -46,7 +46,7 @@ word-wrap: break-word;
 
 
 .title-super{
-	font-size: 5vmin;
+	font-size: 4vmin;
 
 }
 
@@ -85,6 +85,10 @@ hr {
 
 margin-top: 55px;
 
+}
+
+.zero-bottom{
+	margin-bottom: 0px;
 }
 
 
